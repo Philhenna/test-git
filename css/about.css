@@ -36,18 +36,39 @@ ul {font: 12pt/15pt arial;
         }
 
 .block_people {display: flex;
-    flex: 1;
-    flex-flow: row wrap;
+        flex-flow: row wrap;
+        
     
     }
 
 .block {display: flex;
-    flex-flow: row wrap;
-    margin-bottom: 30px;}
+    flex-flow: column;
+    flex: 1 1 400px;
+    margin-bottom: 30px;
+    justify-content: center;}
 
-    .footer {background: #4b73b5;
+.picture {display: flex;
+    justify-content: center;
+}
+
+.name {display: flex;
+    font: bold 14pt roboto;
+    justify-content: center;
+}   
+.profess {display: flex;
+    font: bold 12pt roboto;
+    color: #4b73b5;
+    justify-content: center;
     }
-    .container_down {display: flex;
+
+.text {display: flex;
+    justify-content: center;
+}
+
+.footer {background: #4b73b5;
+    }
+    
+.container_down {display: flex;
     justify-content: space-between;}
     
     .logo_down {display: flex;
