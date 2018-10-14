@@ -71,9 +71,19 @@ ul {font: 12pt/15pt arial;
     justify-content: center;
     }
     
-.forma {display: flex;
+.container_forma {display: flex;
     background: #f5f5f5;
-    justify-content: center;}
+    justify-content: center;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#form_head {display: flex;
+    align-content: center;
+    font: bold 24pt roboto;}
+
+.forma {display: flex;
+    flex-flow: row wrap;}
 
 .footer {background: #4b73b5;
 }
