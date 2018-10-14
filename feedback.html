@@ -127,18 +127,45 @@
                     на сайте </a> или позвонить по номеру круглосуточной поддержки 8 (800) 772 45 67.
             </div>
         </div>
-        <div class="forma">
-            <h1>Оставить отзыв</h1>
+
+        <div class="container_forma">
+            <div id="form_head">Оставить отзыв</div>
             <form action="" method="" enctype="" autocomplete="on">
-                <div class="form_window">
-                    <input type="text">
+                <div class="forma1">
+                    <div class="form_window">
+                        Ваше имя
+                        <input type="text" placeholder="Андрей">
+                    </div>
+                    <div class="form_window">
+                        Ссылка на профиль VK
+                        <input type="text" placeholder="vk.com/example">
+                    </div>
+                </div>
+                <div class="forma2">
+                    <div class="form_window">
+                        Текст отзыва
+                        <textarea name="" id="">Мне понравилось</textarea>
+                    </div>
+                </div>
+                <div class="forma3">
+                    <div class="form_window">
+                        Отображать фото в отзыве?
+                        <div id="answer">
+                            <input type="radio" name="answer">Да
+                            <input type="radio" name="answer">Нет
+                            <button type="submit">
+                                Отправить
+                                <img src="./pic_feedback/vector.png" alt="vector">
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </form>
         </div>
     </div>
-
+    
     <div class="footer">
-        <div class="container_down">
+        <div class="container_footer">
             <div class="author">
                 <div class="string">
                     Сделано с любовью и старанием на курсе</div>
@@ -153,13 +180,22 @@
                 <img src="./pic/logo_header.png" alt="logo_pic_down">
             </div>
             <div class="social">
-                Наши социальные сети
+                <div id="soc"> Наши социальные сети</div>
+                <div class="social picture">
+                    <div class="social_pic">
+                        <img src="./pic_feedback/vk.png" alt="vk">
+                        <img src="./pic_feedback/fb.png" alt="fb">
+                        <img src="./pic_feedback/google.png" alt="google">
+                        <img src="./pic_feedback/twitter.png" alt="twitter">
+                        <img src="./pic_feedback/mail.png" alt="mail">
+                    </div>
+                </div>
             </div>
         </div>
 
     </div>
 
-    </div>
+    
 </body>
 
 </html>
