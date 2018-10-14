@@ -8,15 +8,29 @@ html, body {height: 100%;}
     
 .wrapper_content {flex: 1}
 
-.header {background: #4b73b5;
-    top: -20px;
+.header {display: flex;
+    background: #4b73b5;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
 }
-.logo {
-position: absolute;
-top: 20px;
-left: 14px;
+
+.logo {display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding-left: 20px;
 }
-.number {text-align: right;
+.number {display: flex;
+    flex-flow: column;
+    padding-right: 20px;
+    }
+#contacts_phone {font: bold 18pt roboto;
+    color: #ffffff;
+}
+#grafik {font: bold 10pt roboto;
+    color: #c9d5e9;
+    text-align: right;
 }
 .container {align-content: center;
 }
