@@ -121,16 +121,11 @@ flex-flow: column;}
 .social_picture {display: flex;
     flex-flow: row;
 }
-.white {position: relative;
-    background: #ffffff;
+    
+.social_pic {background: #ffffff;
     height: 20px;
     width: 20px;
     border-radius: 50%;
-}
-.social_pic {position: absolute;
-    top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
 }
 
 

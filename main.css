@@ -46,17 +46,12 @@ h4 {font: 100% arial;
 .tariff {font: bold 200% arial;
 }
 
-.blue {background: #4b73b5;
+.item {background: #4b73b5;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-position: relative;}
-
-.item {background: #4b73b5;
-    position: absolute;
-    top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+    display: block;
+    margin: auto;
 }
 
 .bunner {display: flex;
