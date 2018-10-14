@@ -45,7 +45,9 @@ ul {font: 12pt/15pt arial;
     flex-flow: column;
     flex: 1 1 400px;
     margin-bottom: 30px;
-    justify-content: center;}
+    justify-content: center;
+    width: 30%;}
+    
 
 .picture {display: flex;
     justify-content: center;
