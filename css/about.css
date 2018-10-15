@@ -24,6 +24,7 @@ html, body {height: 100%;}
 .number {display: flex;
     flex-flow: column;
     padding-right: 20px;
+    text-align: right;
     }
 #contacts_phone {font: bold 18pt roboto;
     color: #ffffff;
@@ -33,15 +34,21 @@ html, body {height: 100%;}
 .grafik_link {font: bold 10pt roboto;
     color: #c9d5e9;
     text-align: right;}
+.grafik:hover .grafik_menu {display: block;}
 
 .grafik_menu {position: absolute;
     background: #ffffff;
-    border: 1px solid snow;
+    border: 1px solid #e8e9ed;
     padding: 10px;
+    margin-top: 10px;
     width: 165px;
     top: 100%;
     display: none;
 }
+#week {color: #4b73b5;
+    font: bold 14px roboto light;
+}
+#lunch {font: 14px roboto light;}
 
 .main {display: flex;
     flex-flow: row;

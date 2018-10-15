@@ -24,6 +24,7 @@ html, body {height: 100%;}
 .number {display: flex;
     flex-flow: column;
     padding-right: 20px;
+    text-align: right;
     }
 #contacts_phone {font: bold 18pt roboto;
     color: #ffffff;
@@ -33,15 +34,21 @@ html, body {height: 100%;}
 .grafik_link {font: bold 10pt roboto;
     color: #c9d5e9;
     text-align: right;}
+.grafik:hover .grafik_menu {display: block;}
 
 .grafik_menu {position: absolute;
     background: #ffffff;
-    border: 1px solid snow;
+    border: 1px solid #e8e9ed;
     padding: 10px;
+    margin-top: 10px;
     width: 165px;
     top: 100%;
     display: none;
 }
+#week {color: #4b73b5;
+    font: bold 14px roboto light;
+}
+#lunch {font: 14px roboto light;}
 
 .main {display: flex;
     flex-flow: row;
@@ -57,14 +64,15 @@ padding: 30px 45px;
 }
 
 .phone_text {display: flex;
-flex-flow: column;
 align-items: center;
-padding-left: 45px;
-padding-right: 45px;
-padding-bottom: 40px;
-padding-top: 30px;
+text-align: center;
+padding: 30px 15px;
 margin-bottom: 30px;
-border: 1px solid #e8e9ed;
+background: #4b73b5;
+color: #cfdaeb;
+height: 20%;
+}
+.feedback_text {line-height: 25px;
 }
 
 .social {display: flex;
@@ -107,14 +115,13 @@ border: 1px solid #e8e9ed;
 .feedback {display: flex;
     flex-flow: row;
     margin-bottom: 20px;
-    width: 100%;}
-
-hr {color: #e8e9ed;
-}
+    width: 100%;
+    }
 
 .feed_self {display: flex;
        flex-flow: column;
-        margin-bottom: 30px;}
+        margin-bottom: 30px;
+        border-bottom: 1px #8e8d8d;}
 
 .date {color: #8e8d8d;
     font: 10pt roboto;
@@ -122,7 +129,8 @@ hr {color: #e8e9ed;
 .name {font: bold 12pt roboto;}
 
 .text {display: flex;
-    text-align: left;}
+    text-align: left;
+    line-height: 25px;}
 
 .picture {margin-right: 20px}
 
