@@ -8,77 +8,159 @@ html, body {height: 100%;}
 
 .wrapper_content {flex: 1}
 
-.header {background: #4b73b5;
-        top: -20px;
+.header {display: flex;
+    background: #4b73b5;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
 }
-.logo {
-    position: absolute;
-    top: 20px;
-    left: 14px;
-}
-.number {text-align: right;
-    }
 
+.logo {display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding-left: 20px;
+}
+.number {display: flex;
+    flex-flow: column;
+    padding-right: 20px;
+    }
+#contacts_phone {font: bold 18pt roboto;
+    color: #ffffff;
+}
+.grafik {position: relative;
+}
+.grafik_link {font: bold 10pt roboto;
+    color: #c9d5e9;
+    text-align: right;}
+
+.grafik_menu {position: absolute;
+    background: #ffffff;
+    border: 1px solid snow;
+    padding: 10px;
+    width: 165px;
+    top: 100%;
+    display: none;
+}
 .main {display: flex;
         flex-flow: row;
 }
-    
-.maincontent {margin-right: 100px;}
+.main_container {display: flex;
+    flex-flow: row;}
 
+.leftside {display: flex;
+    flex-flow: column;
+    width: 25%;
+    margin: 20px 15px 30px 20px;
+    padding: 30px 45px;
+}
+
+.tariff {display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #e8e9ed;
+}
+#top-tariff {font: bold 16pt roboto;
+    margin-bottom: 30px;
+}
+#standart {font: bold 10pt roboto;
+    margin-bottom: 15px;
+}
+ul {font: 14pt roboto;
+    margin-top: 15px;
+    line-height: 25px;
+}
+li {font: 14pt roboto;
+    line-height: 25px;
+}
+
+.price {font: bold 28pt roboto;
+}
+.social {display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#soc_text {font: bold 10pt roboto;
+}
+.soc_picture {display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.soc_pic {display: flex;
+    margin: 10px;
+}
+.content {display: flex;
+    flex-flow: column;
+    width: 75%;
+    margin: 20px 15px;
+}
+.breadcrumbs {display: flex;
+    flex-flow: row nowrap;
+}
 .breadcrumbs_item {display: flex;
-            flex-flow: row;}
+            flex-flow: row;
+            width: 20%;
+            font: bold 14pt roboto;
+            text-decoration: none;
+    }
 
-.breadcrumbs_link {margin-left: 10px;
+.breadcrumbs_link {margin-left: 15px;
                 }
-
-.container {text-align: center;}
 
 .bunner {display: flex;
     justify-content: flex-end;
+    width: 100%;
         }
-
-ul {font: 12pt/15pt arial;
-list-style: none;}
-
-h4 {font: 100% arial;
+#newsletter {font: bold 32pt roboto;
 }
-
-.tariff {font: bold 200% arial;
-}
-
-.item {background: #4b73b5;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-}
-
-.bunner {display: flex;
-        }
-
-
-.block_price
-    {display: flex;
-    flex-flow: row;
+.news {display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 30px;
     }
 
+.newsblock {display: flex;
+    flex-flow: column;
+}
 .newspic {display: flex;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
             }
-.text {margin-right: 10%;
-    text-align: start;
-    margin-left: 20px;
+.date {font: 10pt roboto;
+    color: #c9d5e9;
+}            
+.news_head {font: bold 14pt roboto;
+    padding-bottom: 15px;
+}
+.text {font: 12pt roboto light;
+    line-height: 15px;
+}
+.news_page {display: flex;
+    
 }
 
 .footer {background: #4b73b5;
         }
-.container_down {
-        display: flex;
-        justify-content: space-between;}
+.container_down {display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 .logo_down {display: flex;
         justify-content: center;
-    align-items: center;}
+        align-items: center;}
 
-.author {display: flex;
-        flex-flow: column;}
+.author {width: 270px;
+    font: 12pt roboto;
+    color: #9fb4d8;
+    }
+#loftsch {font: bold}
+#name_author {font: bold;}
